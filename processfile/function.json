@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "name": "tempFile",
+      "type": "blobTrigger",
+      "direction": "in",
+      "path": "tempfile/{name}.json",
+      "connection": "AzureWebJobsDashboard"
+    },
+    {
+      "type": "blob",
+      "name": "outputBlob",
+      "path": "csvfile/{name}.csv",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+    }
+  ],
+  "disabled": false
+}
