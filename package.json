@@ -1,0 +1,24 @@
+{
+  "name": "suzano-iot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "adm-zip": "^0.4.7",
+    "shp": "0.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DXBrazil/suzano-iot.git"
+  },
+  "author": "Fabricio Catae",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DXBrazil/suzano-iot/issues"
+  },
+  "homepage": "https://github.com/DXBrazil/suzano-iot#readme"
+}
