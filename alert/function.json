@@ -10,8 +10,8 @@
       "type": "sendGrid",
       "direction": "out",
       "apiKey": "sengGridKey",
-      "to": "fcatae@microsoft.com",
-      "from": "fcatae@microsoft.com",
+      "to": "rec@ms.com",
+      "from": "sender@ms.com",
       "subject": "SendGrid output bindings"
     }
   ],
