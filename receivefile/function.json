@@ -1,0 +1,22 @@
+{
+  "bindings": [
+    {
+      "name": "zipFile",
+      "type": "blobTrigger",
+      "direction": "in",
+      "dataType": "binary",
+      "path": "sharpfile/{name}.zip",
+      "connection": "AzureWebJobsDashboard"
+    },
+
+    {
+      "type": "blob",
+      "name": "outputFile",
+      "path": "tempfile/{name}.json",
+      "connection": "AzureWebJobsDashboard",
+      "direction": "out"
+    }    
+
+  ],
+  "disabled": false
+}
