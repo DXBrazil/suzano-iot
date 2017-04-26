@@ -1,0 +1,19 @@
+{
+  "bindings": [
+    {
+      "type": "manualTrigger",
+      "direction": "in",
+      "name": "input"
+    },
+    {
+      "name": "$return",
+      "type": "sendGrid",
+      "direction": "out",
+      "apiKey": "sengGridKey",
+      "to": "fcatae@microsoft.com",
+      "from": "fcatae@microsoft.com",
+      "subject": "SendGrid output bindings"
+    }
+  ],
+  "disabled": false
+}
